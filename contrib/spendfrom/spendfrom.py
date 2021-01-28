@@ -26,7 +26,7 @@ from jsonrpc import ServiceProxy, json
 BASE_FEE=Decimal("0.001")
 
 def check_json_precision():
-    """Make sure json library being used does not lose precision converting BTC values"""
+    """Make sure json library being used does not lose precision converting IFC values"""
     n = Decimal("20000000.00000003")
     satoshis = int(json.loads(json.dumps(float(n)))*1.0e8)
     if satoshis != 2000000000000003:
@@ -67,7 +67,7 @@ def connect_JSON(config):
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
-        config['rpcport'] = 19332 if testnet else 9332
+        config['rpcport'] = 19322 if testnet else 9322
     connect = "http://%s:%s@127.0.0.1:%s"%(config['rpcuser'], config['rpcpassword'], config['rpcport'])
     try:
         result = ServiceProxy(connect)
@@ -152,7 +152,7 @@ def create_tx(bitcoind, fromaddresses, toaddress, amount, fee):
         total_available += all_coins[addr]["total"]
 
     if total_available < needed:
-        sys.stderr.write("Error, only %f BTC available, need %f\n"%(total_available, needed));
+        sys.stderr.write("Error, only %f IFC available, need %f\n"%(total_available, needed));
         sys.exit(1)
 
     #
