@@ -1,6 +1,8 @@
 Infinitecoin integration/staging tree
 ===============================
 
+http://www.infinitecoin.com
+
 Copyright (c) 2009-2021 Bitcoin Developers, 
 Copyright (c) 2011-2021 Litecoin Developers, 
 Copyright (c) 2013-2021 Infinitecoin Developers
