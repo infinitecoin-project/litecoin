@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.7.5
+!define VERSION 0.8.7.6
 !define COMPANY "Infinitecoin project"
 !define URL http://www.infinitecoin.com/
 
