@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = infinitecoin-qt
 macx:TARGET = "Infinitecoin-Qt"
-VERSION = 0.8.7.5
+VERSION = 0.8.7.6
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
