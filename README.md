@@ -18,7 +18,6 @@ Infinitecoin is scale version of Bitcoin using scrypt as a proof-of-work algorit
  - 524288 coins per block
  - 120 blocks to retarget difficulty
 
-For more information, as well as an immediately useable, binary version of the Litecoin client sofware, see http://www.infinitecoin.com.
 
 License
 Infinitecoin is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
