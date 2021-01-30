@@ -5,6 +5,7 @@ Infinitecoin core
 - Infinitecoin v0.8.7.6 is based on litecoin v0.8.7.5 code
 - Litecoin v0.8.7.5 is based on bitcoin v0.8.6 code
 - Binary file wallet client disables UPNP by default
+- Checkpoint updated to block height 6887217
 - Dust Hard Limit, ignored as wallet inputs (1IFC mininput default)
 - The default handling fee is 0.1%, the minimum is 100IFC, and the maximum is 10000IFC (except byte rule fees)
 
