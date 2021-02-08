@@ -1,0 +1,9 @@
+Building Infinitecoin
+
+See doc/readme-qt.rst for instructions on building Infinitecoin-QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Infinitecoin.
+
+See doc/build-*.txt for instructions on building infinitecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Infinitecoin.
