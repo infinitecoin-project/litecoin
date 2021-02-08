@@ -70,7 +70,7 @@
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string extracomment="111">The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</string>
+        <string extracomment="111">The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</string>
        </property>
        <property name="textFormat">
         <enum>Qt::PlainText</enum>
