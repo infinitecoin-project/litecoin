@@ -1005,8 +1005,8 @@ Address: %4
         <translation type="obsolete">主选项</translation>
     </message>
     <message>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="obsolete">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete">转账手续费按照转账金额的0.1%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
@@ -1229,8 +1229,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="unfinished">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished">转账手续费按照转账金额的0.1%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1747,9 +1747,9 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
-        <translation type="unfinished">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC</translation>
+        <translation type="unfinished">转账手续费按照转账金额的0.1%收取，最高1万IFC，最低100IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -3295,7 +3295,7 @@ SSL 选项: (SSL 安装教程具体见无限币维基百科)
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">警告: -paytxfee 交易费请按照转账金额的0.2%设置，最高1万IFC，最低100IFC。</translation>
+        <translation type="unfinished">警告: -paytxfee 交易费请按照转账金额的0.1%设置，最高1万IFC，最低100IFC。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="102"/>

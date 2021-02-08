@@ -927,7 +927,7 @@ Adresas: %4</translation>
         <translation type="obsolete">Pagrindinis</translation>
     </message>
     <message>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
         <translation type="obsolete"></translation>
     </message>
 </context>
@@ -1095,7 +1095,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1585,7 +1585,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
         <translation type="unfinished"></translation>
     </message>

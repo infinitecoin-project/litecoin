@@ -1006,8 +1006,8 @@ Address: %4
         <translation type="obsolete">主要</translation>
     </message>
     <message>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="obsolete">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete">轉賬手續費按照轉賬金額的0.1%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
@@ -1230,8 +1230,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="unfinished">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished">轉賬手續費按照轉賬金額的0.1%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1744,9 +1744,9 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.1% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
-        <translation type="unfinished">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC</translation>
+        <translation type="unfinished">轉賬手續費按照轉賬金額的0.1%收取，最高1萬IFC，最低100IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
