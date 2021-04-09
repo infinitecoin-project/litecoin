@@ -24,11 +24,11 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the litecoin source, gitian-builder and gitian.sigs.ltc
+ From a directory containing the infinitecoin source, gitian-builder and gitian.sigs.ifc
   
     export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./litecoin
+	pushd ./infinitecoin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -49,29 +49,29 @@ Release Process
 
   By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../litecoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../infinitecoin/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Litecoin Core for Linux, Windows, and OS X:
+###Build Infinitecoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/litecoin-*.tar.gz build/out/src/litecoin-*.tar.gz ../
-	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/litecoin-*.zip build/out/litecoin-*.exe ../
-	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/litecoin-*-unsigned.tar.gz inputs/litecoin-osx-unsigned.tar.gz
-	mv build/out/litecoin-*.tar.gz build/out/litecoin-*.dmg ../
+	./bin/gbuild --commit infinitecoin=v${VERSION} ../infinitecoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ifc/ ../infinitecoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/infinitecoin-*.tar.gz build/out/src/infinitecoin-*.tar.gz ../
+	./bin/gbuild --commit infinitecoin=v${VERSION} ../infinitecoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ifc/ ../infinitecoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/infinitecoin-*.zip build/out/infinitecoin-*.exe ../
+	./bin/gbuild --commit infinitecoin=v${VERSION} ../infinitecoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ifc/ ../infinitecoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/infinitecoin-*-unsigned.tar.gz inputs/infinitecoin-osx-unsigned.tar.gz
+	mv build/out/infinitecoin-*.tar.gz build/out/infinitecoin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (litecoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (litecoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (litecoin-${VERSION}-win[32|64]-setup.exe, litecoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer (litecoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (infinitecoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (infinitecoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (infinitecoin-${VERSION}-win[32|64]-setup.exe, infinitecoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (infinitecoin-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
 
 ###Next steps:
@@ -95,9 +95,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Warren/Coblee
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../litecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../litecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/litecoin-osx-signed.dmg ../litecoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../infinitecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../infinitecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/infinitecoin-osx-signed.dmg ../infinitecoin-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OS X binary:
@@ -126,17 +126,17 @@ rm SHA256SUMS
 ```
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 
-- Update litecoin.org version
+- Update infinitecoin.com version
 
 - Announce the release:
 
-  - Release sticky on litecointalk: https://litecointalk.org/index.php?board=1.0
+  - Release sticky on infinitecointalk: https://infinitecointalk.org/index.php?board=1.0
 
-  - litecoin-development mailing list
+  - infinitecoin-development mailing list
 
-  - Update title of #litecoin on Freenode IRC
+  - Update title of #infinitecoin on Freenode IRC
 
-  - Optionally reddit /r/litecoin, ... but this will usually sort out itself
+  - Optionally reddit /r/infinitecoin, ... but this will usually sort out itself
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 
