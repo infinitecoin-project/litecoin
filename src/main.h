@@ -73,7 +73,7 @@ static const unsigned int BLOCKFILE_CHUNK_SIZE = 0x1000000; // 16 MiB
 /** The pre-allocation chunk size for rev?????.dat files (since 0.8) */
 static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
-static const int COINBASE_MATURITY = 100;
+static const int COINBASE_MATURITY = 60;
 /** Maximum number of script-checking threads allowed */
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 /** -par default (number of script-checking threads, 0 = auto) */
@@ -95,13 +95,16 @@ static const unsigned int DATABASE_WRITE_INTERVAL = 3600;
 /** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
 
-/** Litecoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
-static const CAmount DUST_THRESHOLD = 100000; // 0.001 LTC
-/** Litecoin: Default TX Fee per 1000 bytes */
-static const CAmount DEFAULT_TX_FEE = 100000; // 0.001 LTC
+/** Infinitecoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
+static const CAmount DUST_THRESHOLD = 100000000; // 1 IFC
+/** Infinitecoin: Default TX Fee per 1000 bytes */
+static const CAmount DEFAULT_TX_FEE = 10000000000; // 100 IFC
 
-/** Litecoin: default minimum input threshold, override with -mininput */
-static const CAmount DEFAULT_MINIMUM_INPUT_THRESHOLD = DUST_THRESHOLD / 100; // 0.00001 LTC
+/** Infinitecoin: default minimum input threshold, override with -mininput */
+static const CAmount DEFAULT_MINIMUM_INPUT_THRESHOLD = 100000000; // 1 IFC
+
+/** Infinitecoin: Maximum transfer threshold only for testing */
+static const CAmount MAX_THRESHOLD = 10000000000000; // 100000 IFC
 
 /** "reject" message codes */
 static const unsigned char REJECT_MALFORMED = 0x01;

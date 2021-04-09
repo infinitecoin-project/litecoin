@@ -18,7 +18,8 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     // Genesis block
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
-
+if((pindexLast->nHeight+1) < 245000)
+{
     // Only change once per interval
     if ((pindexLast->nHeight+1) % Params().Interval() != 0)
     {
@@ -40,40 +41,72 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         }
         return pindexLast->nBits;
     }
+}
 
-    // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
-    // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
-    int blockstogoback = Params().Interval()-1;
-    if ((pindexLast->nHeight+1) != Params().Interval())
-        blockstogoback = Params().Interval();
+    int64_t nIntervalPPC = 30;
+    int64_t nActualTimespan = 30 * 120;
+	const CBlockIndex* pindexFirst = pindexLast;
 
-    // Go back by what we want to be 14 days worth of blocks
-    const CBlockIndex* pindexFirst = pindexLast;
-    for (int i = 0; pindexFirst && i < blockstogoback; i++)
-        pindexFirst = pindexFirst->pprev;
-    assert(pindexFirst);
+	if((pindexLast->nHeight+1) < 272000)
+	{
+        // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
+        // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
+        int blockstogoback = Params().Interval()-1;
+        if ((pindexLast->nHeight+1) != Params().Interval())
+            blockstogoback = Params().Interval();
 
-    // Limit adjustment step
-    int64_t nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
-    LogPrintf("  nActualTimespan = %d  before bounds\n", nActualTimespan);
-    if (nActualTimespan < Params().TargetTimespan()/4)
-        nActualTimespan = Params().TargetTimespan()/4;
-    if (nActualTimespan > Params().TargetTimespan()*4)
-        nActualTimespan = Params().TargetTimespan()*4;
+        // Go back by what we want to be 14 days worth of blocks
+        const CBlockIndex* pindexFirst = pindexLast;
+        for (int i = 0; pindexFirst && i < blockstogoback; i++)
+            pindexFirst = pindexFirst->pprev;
+        assert(pindexFirst);
+
+        // Limit adjustment step
+        nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+        //LogPrintf("  nActualTimespan = %d  before bounds\n", nActualTimespan);
+
+	    if((pindexLast->nHeight+1) < 1500)
+	    {
+            if (nActualTimespan < Params().TargetTimespan()/16)
+                nActualTimespan = Params().TargetTimespan()/16;
+        }
+		else
+		{
+            if (nActualTimespan < Params().TargetTimespan()/4)
+                nActualTimespan = Params().TargetTimespan()/4;
+		} 
+		if (nActualTimespan > Params().TargetTimespan()*4)
+            nActualTimespan = Params().TargetTimespan()*4;
+	}
+	else	// PPCoin formula with 1 block time
+	{
+		// get the previous block
+		pindexFirst = pindexLast->pprev;
+		nActualTimespan = (pindexLast->GetBlockTime() - pindexFirst->GetBlockTime()) * Params().Interval();
+
+		// limit the adjustment
+		if (nActualTimespan < Params().TargetTimespan()/16)
+            nActualTimespan = Params().TargetTimespan()/16;
+        if (nActualTimespan > Params().TargetTimespan()*16)
+            nActualTimespan = Params().TargetTimespan()*16;
+    }
 
     // Retarget
     uint256 bnNew;
-    uint256 bnOld;
+	uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
-    bnOld = bnNew;
-    // Litecoin: intermediate uint256 can overflow by 1 bit
-    bool fShift = bnNew.bits() > 235;
-    if (fShift)
-        bnNew >>= 1;
-    bnNew *= nActualTimespan;
-    bnNew /= Params().TargetTimespan();
-    if (fShift)
-        bnNew <<= 1;
+	bnOld = bnNew;
+	
+    if((pindexLast->nHeight+1) < 248000)                          // 120-block linear retarget
+	{
+        bnNew *= nActualTimespan;
+        bnNew /= Params().TargetTimespan();
+	}
+	else                                                          // PPCoin retarget algorithm
+	{
+		bnNew *= ((nIntervalPPC - 1) * Params().TargetTimespan() + nActualTimespan + nActualTimespan);
+		bnNew /= ((nIntervalPPC + 1) * Params().TargetTimespan());
+	}
 
     if (bnNew > Params().ProofOfWorkLimit())
         bnNew = Params().ProofOfWorkLimit();
@@ -89,6 +122,9 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
 {
+    if(hash.GetHex() == "55ca007399d28cd3e3d921709ee6c52665db5cbf4cf0865230a00d2992c6812b")
+            return true;
+
     bool fNegative;
     bool fOverflow;
     uint256 bnTarget;

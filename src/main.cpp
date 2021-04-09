@@ -31,7 +31,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Litecoin cannot be compiled without assertions."
+# error "Infinitecoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -73,7 +73,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Litecoin Signed Message:\n";
+const string strMessageMagic = "Infinitecoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -913,15 +913,6 @@ CAmount GetMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowF
             return 0;
     }
 
-    // Litecoin
-    // To limit dust spam, add 1000 byte penalty for each output smaller than DUST_THRESHOLD
-    BOOST_FOREACH(const CTxOut& txout, tx.vout)
-        if (txout.nValue < DUST_THRESHOLD)
-        {
-            nBytes += 1000;
-            fAllowFree = false;
-        }
-
     CAmount nMinFee = ::minRelayTxFee.GetFee(nBytes);
 
     if (fAllowFree)
@@ -1242,14 +1233,14 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 
 CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 {
-    CAmount nSubsidy = 50 * COIN;
+    CAmount nSubsidy = 524288 * COIN;
     int halvings = nHeight / Params().SubsidyHalvingInterval();
 
     // Force block reward to zero when right shift is undefined.
     if (halvings >= 64)
         return nFees;
 
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    // Subsidy is cut in half every 86400 blocks which will occur approximately every 1 month.
     nSubsidy >>= halvings;
 
     return nSubsidy + nFees;
@@ -1646,7 +1637,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("litecoin-scriptch");
+    RenameThread("infinitecoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2552,13 +2543,13 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     if (pcheckpoint && nHeight < pcheckpoint->nHeight)
         return state.DoS(100, error("%s : forked chain older than last checkpoint (height %d)", __func__, nHeight));
 
-    // Litecoin: Reject block.nVersion=1 blocks (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
+    // Infinitecoin: Reject block.nVersion=1 blocks (mainnet >= 71000000, testnet >= 40000000, regtest uses supermajority)
     bool enforceV2 = false;
     if (block.nVersion < 2)
     {
         if (Params().EnforceV2AfterHeight() != -1)
         {
-            // Mainnet 710k, Testnet 400k
+            // Mainnet 71000k, Testnet 40000k
             if (nHeight >= Params().EnforceV2AfterHeight())
                 enforceV2 = true;
         }
@@ -2601,7 +2592,7 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
             return state.DoS(10, error("%s : contains a non-final transaction", __func__), REJECT_INVALID, "bad-txns-nonfinal");
         }
 
-    // Litecoin: (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
+    // Infinitecoin: (mainnet >= 71000000, testnet >= 40000000, regtest uses supermajority)
     // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
     // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
     bool checkHeightMismatch = false;
@@ -2609,7 +2600,7 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
     {
         if (Params().EnforceV2AfterHeight() != -1)
         {
-            // Mainnet 710k, Testnet 400k
+            // Mainnet 71000k, Testnet 40000k
             if (nHeight >= Params().EnforceV2AfterHeight())
                 checkHeightMismatch = true;
         }

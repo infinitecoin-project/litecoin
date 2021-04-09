@@ -1407,10 +1407,403 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                         strFailReason = _("Transaction amount too small");
                         return false;
                     }
-                    if (txout.nValue < DUST_THRESHOLD)
+                    if (txout.nValue > MAX_THRESHOLD)
                     {
                         nBytesPenalty += 1000;
                     }
+					if (txout.nValue > MAX_THRESHOLD*2)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*3)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*4)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*5)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*6)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*7)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*8)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*9)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*10)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*11)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*12)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*13)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*14)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*15)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*16)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*17)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*18)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*19)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*20)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*21)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*22)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*23)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*24)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*25)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*26)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*27)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*28)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*29)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*30)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*31)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*32)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*33)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*34)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*35)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*36)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*37)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*38)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*39)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*40)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*41)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*42)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*43)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*44)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*45)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*46)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*47)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*48)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*49)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*50)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*51)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*52)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*53)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*54)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*55)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*56)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*57)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*58)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*59)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*60)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*61)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*62)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*63)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*64)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*65)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*66)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*67)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*68)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*69)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*70)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*71)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*72)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*73)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*74)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*75)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*76)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*77)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*78)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*79)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*80)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*81)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*82)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*83)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*84)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*85)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*86)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*87)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*88)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*89)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*90)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*91)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*92)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*93)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*94)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*95)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*96)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*97)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*98)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					if (txout.nValue > MAX_THRESHOLD*99)
+                    {
+                        nBytesPenalty += 1000;
+                    }
+					
                     txNew.vout.push_back(txout);
                 }
 

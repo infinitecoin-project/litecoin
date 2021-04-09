@@ -360,7 +360,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "litecoin";
+    const char* pszModule = "infinitecoin";
 #endif
     if (pex)
         return strprintf(
@@ -381,13 +381,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Litecoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Litecoin
-    // Mac: ~/Library/Application Support/Litecoin
-    // Unix: ~/.litecoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Infinitecoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Infinitecoin
+    // Mac: ~/Library/Application Support/Infinitecoin
+    // Unix: ~/.infinitecoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Litecoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Infinitecoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -399,10 +399,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Litecoin";
+    return pathRet / "Infinitecoin";
 #else
     // Unix
-    return pathRet / ".litecoin";
+    return pathRet / ".infinitecoin";
 #endif
 #endif
 }
@@ -449,7 +449,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "litecoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "infinitecoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -461,14 +461,14 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No litecoin.conf file is OK
+        return; // No infinitecoin.conf file is OK
 
     set<string> setOptions;
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override litecoin.conf
+        // Don't overwrite existing settings so command line settings override infinitecoin.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -485,7 +485,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "litecoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "infinitecoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
