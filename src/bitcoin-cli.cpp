@@ -24,7 +24,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + strprintf(_("Specify configuration file (default: %s)"), "litecoin.conf") + "\n";
+    strUsage += "  -conf=<file>           " + strprintf(_("Specify configuration file (default: %s)"), "infinitecoin.conf") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -testnet               " + _("Use the test network") + "\n";
     strUsage += "  -regtest               " + _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -35,7 +35,7 @@ std::string HelpMessageCli()
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
 
-    strUsage += "\n" + _("SSL options: (see the Litecoin Wiki for SSL setup instructions)") + "\n";
+    strUsage += "\n" + _("SSL options: (see the Infinitecoin Wiki for SSL setup instructions)") + "\n";
     strUsage += "  -rpcssl                " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n";
 
     return strUsage;
@@ -67,12 +67,12 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Litcoin Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Infinitecoin Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  litecoin-cli [options] <command> [params]  " + _("Send command to Litecoin Core") + "\n" +
-                  "  litecoin-cli [options] help                " + _("List commands") + "\n" +
-                  "  litecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  infinitecoin-cli [options] <command> [params]  " + _("Send command to Infinitecoin Core") + "\n" +
+                  "  infinitecoin-cli [options] help                " + _("List commands") + "\n" +
+                  "  infinitecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

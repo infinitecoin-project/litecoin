@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "Litecoind (OSS daemon/client for Litecoin)"
+            VALUE "CompanyName",        "Infinitecoin"
+            VALUE "FileDescription",    "Infinitecoind (OSS daemon/client for Infinitecoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoind"
+            VALUE "InternalName",       "infinitecoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoind.exe"
-            VALUE "ProductName",        "Litecoind"
+            VALUE "OriginalFilename",   "infinitecoind.exe"
+            VALUE "ProductName",        "Infinitecoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
