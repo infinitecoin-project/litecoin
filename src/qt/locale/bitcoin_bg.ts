@@ -66,12 +66,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са Вашите Litecoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Infinitecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Infinitecoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,8 +184,8 @@
         <translation>Портфейлът е криптиран</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите litecoins от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
+        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Infinitecoin ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите litecoins от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,16 +291,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Litecoin Core client</source>
-        <translation>Litecoin Core клиент</translation>
+        <source>Infinitecoin Core client</source>
+        <translation>Infinitecoin Core клиент</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Изпращане към Litecoin адрес</translation>
+        <source>Send coins to a Infinitecoin address</source>
+        <translation>Изпращане към Infinitecoin адрес</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Променете настройките на Litecoin</translation>
+        <source>Modify configuration options for Infinitecoin</source>
+        <translation>Променете настройките на Infinitecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Show information about Litecoin Core</source>
-        <translation>Покажете информация за Litecoin ядрото</translation>
+        <source>Show information about Infinitecoin Core</source>
+        <translation>Покажете информация за Infinitecoin ядрото</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Litecoin адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Infinitecoin адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Litecoin адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Infinitecoin адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +379,16 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin ядро</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и infinitecoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Litecoin Core</source>
-        <translation>&amp;Относно Litecoin Core</translation>
+        <source>&amp;About Infinitecoin Core</source>
+        <translation>&amp;Относно Infinitecoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,20 +399,20 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Отворете litecoin: URI  или заявка за плащане</translation>
+        <source>Open a infinitecoin: URI or payment request</source>
+        <translation>Отворете infinitecoin: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Налични команди</translation>
     </message>
     <message>
-        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
-        <translation>Покажи помощните съобщения на Litecoin за да видиш наличните и валидни команди</translation>
+        <source>Show the Infinitecoin Core help message to get a list with possible Infinitecoin command-line options</source>
+        <translation>Покажи помощните съобщения на Infinitecoin за да видиш наличните и валидни команди</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n връзка към Litecoin мрежата</numerusform><numerusform>%n връзки към Litecoin мрежата</numerusform></translation>
+        <source>%n active connection(s) to Infinitecoin network</source>
+        <translation><numerusform>%n връзка към Infinitecoin мрежата</numerusform><numerusform>%n връзки към Infinitecoin мрежата</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -748,8 +748,8 @@ Address: %4
         <translation>Вече има адрес "%1" в списъка с адреси.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>"%1" не е валиден Litecoin адрес.</translation>
+        <source>The entered address "%1" is not a valid Infinitecoin address.</source>
+        <translation>"%1" не е валиден Infinitecoin адрес.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -786,8 +786,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -798,8 +798,8 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
-        <translation>За Litecoin Core</translation>
+        <source>About Infinitecoin Core</source>
+        <translation>За Infinitecoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -837,12 +837,12 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Litecoin Core.</source>
-        <translation>Добре дошли в Litecoin ядрото.</translation>
+        <source>Welcome to Infinitecoin Core.</source>
+        <translation>Добре дошли в Infinitecoin ядрото.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
-        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Litecoin ядрото да запази данните си.</translation>
+        <source>As this is the first time the program is launched, you can choose where Infinitecoin Core will store its data.</source>
+        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Infinitecoin ядрото да запази данните си.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin ядро</translation>
     </message>
     <message>
         <source>Error</source>
@@ -879,12 +879,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Автоматично включване на Litecoin след влизане в системата.</translation>
+        <source>Automatically start Infinitecoin after logging in to the system.</source>
+        <translation>Автоматично включване на Infinitecoin след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Пускане на Litecoin при вход в системата</translation>
+        <source>&amp;Start Infinitecoin on system login</source>
+        <translation>&amp;Пускане на Infinitecoin при вход в системата</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -935,16 +935,16 @@ Address: %4
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Litecoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Infinitecoin порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Litecoin мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the Infinitecoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Infinitecoin мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -991,8 +991,8 @@ Address: %4
         <translation>Език:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Промяната на езика ще влезе в сила след рестартиране на Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</source>
+        <translation>Промяната на езика ще влезе в сила след рестартиране на Infinitecoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1050,8 +1050,8 @@ Address: %4
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Litecoin, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Infinitecoin, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1133,8 +1133,8 @@ Address: %4
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Litecoin не можe да се стартира: click-to-pay handler</translation>
+        <source>Cannot start infinitecoin: click-to-pay handler</source>
+        <translation>Infinitecoin не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1187,8 +1187,8 @@ Address: %4
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Въведете Litecoin адрес (например: %1)</translation>
+        <source>Enter a Infinitecoin address (e.g. %1)</source>
+        <translation>Въведете Infinitecoin адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1401,16 +1401,16 @@ Address: %4
         <translation>Лог файл,съдържащ грешките</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отворете Litecoin дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
+        <source>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отворете Infinitecoin дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Изчисти конзолата</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Добре дошли в Litecoin RPC конзолата.</translation>
+        <source>Welcome to the Infinitecoin RPC console.</source>
+        <translation>Добре дошли в Infinitecoin RPC конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1785,8 +1785,8 @@ Address: %4
         <translation>Платете минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Внимание: Невалиден Litecoin адрес</translation>
+        <source>Warning: Invalid Infinitecoin address</source>
+        <translation>Внимание: Невалиден Infinitecoin адрес</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1875,8 +1875,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Litecoin Core is shutting down...</source>
-        <translation>Litecoin ядрото се изключва...</translation>
+        <source>Infinitecoin Core is shutting down...</source>
+        <translation>Infinitecoin ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1926,7 +1926,7 @@ Address: %4
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Infinitecoin address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1942,8 +1942,8 @@ Address: %4
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Litecoin адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Infinitecoin адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2005,8 +2005,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin ядро</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>

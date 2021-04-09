@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Litecoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Litecoins.</translation>
+        <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Infinitecoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Litecoins.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Litecoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your Infinitecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina Infinitecoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -189,7 +189,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ange plånbokens nya lösenord. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;tio eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -296,8 +296,8 @@ Var vänlig och försök igen.</translation>
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Litecoin Core client</source>
-        <translation>Litecoin Core klient</translation>
+        <source>Infinitecoin Core client</source>
+        <translation>Infinitecoin Core klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -308,12 +308,12 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Skicka litecoins till en Litecoin-adress</translation>
+        <source>Send coins to a Infinitecoin address</source>
+        <translation>Skicka litecoins till en Infinitecoin-adress</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Ändra konfigurationsalternativ för Litecoin</translation>
+        <source>Modify configuration options for Infinitecoin</source>
+        <translation>Ändra konfigurationsalternativ för Infinitecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -336,8 +336,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -352,8 +352,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Ta emot</translation>
     </message>
     <message>
-        <source>Show information about Litecoin Core</source>
-        <translation>Visa information om Litecoin Core</translation>
+        <source>Show information about Infinitecoin Core</source>
+        <translation>Visa information om Infinitecoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -368,12 +368,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Litecoin-adress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Infinitecoin-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Litecoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Infinitecoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -392,16 +392,16 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för Tabbar</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kärna</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin Kärna</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Begär betalning (genererar QR-koder och litecoin-URI)</translation>
+        <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
+        <translation>Begär betalning (genererar QR-koder och infinitecoin-URI)</translation>
     </message>
     <message>
-        <source>&amp;About Litecoin Core</source>
-        <translation>&amp;Om Litecoin Core</translation>
+        <source>&amp;About Infinitecoin Core</source>
+        <translation>&amp;Om Infinitecoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -412,20 +412,20 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Öppna en litecoin: URI eller betalningsbegäran</translation>
+        <source>Open a infinitecoin: URI or payment request</source>
+        <translation>Öppna en infinitecoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
-        <translation>Visa Litecoin Core hjälpmeddelande för att få en lista med möjliga Litecoin kommandoradsalternativ.</translation>
+        <source>Show the Infinitecoin Core help message to get a list with possible Infinitecoin command-line options</source>
+        <translation>Visa Infinitecoin Core hjälpmeddelande för att få en lista med möjliga Infinitecoin kommandoradsalternativ.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Litecoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Litecoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to Infinitecoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till Infinitecoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Infinitecoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -785,8 +785,8 @@ Adress: %4
         <translation>Den angivna adressen "%1" finns redan i adressboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Litecoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Infinitecoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Infinitecoin-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -823,8 +823,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kärna</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin Kärna</translation>
     </message>
     <message>
         <source>version</source>
@@ -835,8 +835,8 @@ Adress: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
-        <translation>Om Litecoin Core</translation>
+        <source>About Infinitecoin Core</source>
+        <translation>Om Infinitecoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -882,16 +882,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Litecoin Core.</source>
-        <translation>Välkommen till Litecoin Core.</translation>
+        <source>Welcome to Infinitecoin Core.</source>
+        <translation>Välkommen till Infinitecoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var Litecoin Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Infinitecoin Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var Infinitecoin Core skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Litecoin Core kommer att ladda ner och spara en kopia av Litecoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>Infinitecoin Core will download and store a copy of the Infinitecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Infinitecoin Core kommer att ladda ner och spara en kopia av Infinitecoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -902,8 +902,8 @@ Adress: %4
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kärna</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin Kärna</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -956,12 +956,12 @@ Adress: %4
         <translation>&amp;Allmänt</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Starta Litecoin automatiskt efter inloggning.</translation>
+        <source>Automatically start Infinitecoin after logging in to the system.</source>
+        <translation>Starta Infinitecoin automatiskt efter inloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Starta Litecoin vid systemstart</translation>
+        <source>&amp;Start Infinitecoin on system login</source>
+        <translation>&amp;Starta Infinitecoin vid systemstart</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,16 +1036,16 @@ Adress: %4
         <translation>&amp;Spendera okonfirmerad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Litecoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Infinitecoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Litecoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Infinitecoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Infinitecoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1092,8 +1092,8 @@ Adress: %4
         <translation>Användargränssnittets &amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Infinitecoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1151,8 +1151,8 @@ Adress: %4
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Litecoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Infinitecoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1258,16 +1258,16 @@ Adress: %4
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan inte starta litecoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start infinitecoin: click-to-pay handler</source>
+        <translation>Kan inte starta infinitecoin: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Betalningsbegärans hämta URL är felaktig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Litecoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Infinitecoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Infinitecoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1336,8 +1336,8 @@ Adress: %4
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Ange en Litecoin-adress (t.ex. %1)</translation>
+        <source>Enter a Infinitecoin address (e.g. %1)</source>
+        <translation>Ange en Infinitecoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1562,16 +1562,16 @@ Adress: %4
         <translation>Debugloggfil</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Litecoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Infinitecoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Välkommen till Litecoin RPC-konsollen.</translation>
+        <source>Welcome to the Infinitecoin RPC console.</source>
+        <translation>Välkommen till Infinitecoin RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1641,7 +1641,7 @@ Adress: %4
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>
         <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Litecoinnätverket.</translation>
     </message>
     <message>
@@ -1878,8 +1878,8 @@ Adress: %4
         <translation>totalt minst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på litecoin transaktioner än nätverket kan bearbeta.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for infinitecoin transactions than the network can process.</source>
+        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på infinitecoin transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2034,7 +2034,7 @@ Adress: %4
         <translation>Bekräftelsen beräknas börja inom %1 block.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
+        <source>Warning: Invalid Infinitecoin address</source>
         <translation>Varning: Felaktig Litecoinadress</translation>
     </message>
     <message>
@@ -2085,7 +2085,7 @@ Adress: %4
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
+        <source>The Infinitecoin address to send the payment to</source>
         <translation>Litecoinadress att sända betalning till</translation>
     </message>
     <message>
@@ -2117,8 +2117,8 @@ Adress: %4
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Ett meddelande som bifogades litecoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Litecoinnätverket.</translation>
+        <source>A message that was attached to the infinitecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Infinitecoin network.</source>
+        <translation>Ett meddelande som bifogades infinitecoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Litecoinnätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2136,8 +2136,8 @@ Adress: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Litecoin Core is shutting down...</source>
-        <translation>Litecoin Core stängs av...</translation>
+        <source>Infinitecoin Core is shutting down...</source>
+        <translation>Infinitecoin Core stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2159,7 +2159,7 @@ Adress: %4
         <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
+        <source>The Infinitecoin address to sign the message with</source>
         <translation>Litecoinadress att signera meddelandet med</translation>
     </message>
     <message>
@@ -2191,7 +2191,7 @@ Adress: %4
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Infinitecoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2215,12 +2215,12 @@ Adress: %4
         <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan för att verifiera meddelandet. Var noga med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet, för att undvika att luras av en man-in-the-middle attack.</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
+        <source>The Infinitecoin address the message was signed with</source>
         <translation>Litecoinadressen som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Litecoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Infinitecoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2286,8 +2286,8 @@ Adress: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kärna</translation>
+        <source>Infinitecoin Core</source>
+        <translation>Infinitecoin Kärna</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2840,8 +2840,8 @@ Adress: %4
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Litecoin Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. Infinitecoin Core is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. Infinitecoin Core är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3024,8 +3024,8 @@ Adress: %4
         <translation>Bind till angiven adress för att lyssna på JSON-RPC anslutningar. Använd [värd]:port notation for IPv6. Denna option kan specificeras flera gånger (förvalt: bind till alla gränssnitt)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Litecoin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Infinitecoin Core is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. Infinitecoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3048,12 +3048,12 @@ Adress: %4
         <translation>Exekvera kommando när ett relevant meddelande är mottagen eller när vi ser en väldigt lång förgrening (%s i cmd är utbytt med ett meddelande)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i LTC/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
+        <source>Fees (in IFC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i IFC/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i LTC/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
+        <source>Fees (in IFC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i IFC/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3089,7 +3089,7 @@ Adress: %4
         <translation>Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litecoind, or the -server option to infinitecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=litecoinrpc
@@ -3098,9 +3098,9 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Infinitecoin Alert" admin@foo.com
 </source>
-        <translation>För att använda bitconid,eller -server optionen till litecoin-qt så mäste du sätta ett rpclösensord i konfigurationsfilen:
+        <translation>För att använda bitconid,eller -server optionen till infinitecoin-qt så mäste du sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
 rpcuser=litecoinrpc
@@ -3109,7 +3109,7 @@ rpcpassword=%s
 Användarnamnet och lösenordet FÅR INTE vara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s "Infinitecoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3117,8 +3117,8 @@ till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Varning: -maxtxfee är satt väldigt hög! Så höga avgifter kan betalas för en enstaka transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Litecoin Core inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Infinitecoin Core will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Infinitecoin Core inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3145,8 +3145,8 @@ till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Kunde inte tolka -rpcbind värdet %s som en nätverksadress</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
-        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av Litecoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Infinitecoin Core</source>
+        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av Infinitecoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3161,16 +3161,16 @@ till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Fel: Argumentet -tor stöds inte, använd -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i LTC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+        <source>Fee (in IFC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i IFC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
-        <translation>Initieringschecken fallerade. Litecoin Core stängs av...</translation>
+        <source>Initialization sanity check failed. Infinitecoin Core is shutting down.</source>
+        <translation>Initieringschecken fallerade. Infinitecoin Core stängs av...</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3205,8 +3205,8 @@ till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Nodreläoptioner:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL optioner: (se Litecoin Wiki för SSL inställningsinstruktioner)</translation>
+        <source>RPC SSL options: (see the Infinitecoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL optioner: (se Infinitecoin Wiki för SSL inställningsinstruktioner)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3281,8 +3281,8 @@ till exempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Användarnamn för JSON-RPC-anslutningar</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
-        <translation>Kontot behöver sparas om: Starta om Litecoin Core för att fullfölja</translation>
+        <source>Wallet needed to be rewritten: restart Infinitecoin Core to complete</source>
+        <translation>Kontot behöver sparas om: Starta om Infinitecoin Core för att fullfölja</translation>
     </message>
     <message>
         <source>Warning</source>

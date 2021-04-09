@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Infinitecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -238,8 +238,8 @@
     </message>
     <message>
         <location line="+80"/>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</translation>
+        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <location line="+173"/>
-        <source>Litecoin Core client</source>
+        <source>Infinitecoin Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -393,13 +393,13 @@
     </message>
     <message>
         <location line="-406"/>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Send coins to a Litecoin address</translation>
+        <source>Send coins to a Infinitecoin address</source>
+        <translation>Send coins to a Infinitecoin address</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Modify configuration options for Litecoin</translation>
+        <source>Modify configuration options for Infinitecoin</source>
+        <translation>Modify configuration options for Infinitecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -428,8 +428,8 @@
     </message>
     <message>
         <location line="+438"/>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <location line="-639"/>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <location line="+32"/>
-        <source>Show information about Litecoin Core</source>
+        <source>Show information about Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,13 +468,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Sign messages with your Litecoin addresses to prove you own them</translation>
+        <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
+        <translation>Sign messages with your Infinitecoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Litecoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Infinitecoin addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -498,17 +498,17 @@
     </message>
     <message>
         <location line="-298"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished">Litecoin Core</translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">Infinitecoin Core</translation>
     </message>
     <message>
         <location line="+155"/>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>&amp;About Litecoin Core</source>
+        <source>&amp;About Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a infinitecoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -533,15 +533,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <source>Show the Infinitecoin Core help message to get a list with possible Infinitecoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+307"/>
-        <source>%n active connection(s) to Litecoin network</source>
+        <source>%n active connection(s) to Infinitecoin network</source>
         <translation>
-            <numerusform>%n active connection to Litecoin network</numerusform>
-            <numerusform>%n active connections to Litecoin network</numerusform>
+            <numerusform>%n active connection to Infinitecoin network</numerusform>
+            <numerusform>%n active connections to Infinitecoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -1012,8 +1012,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Litecoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Infinitecoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Infinitecoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1058,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+31"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished">Litecoin Core</translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">Infinitecoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1074,7 +1074,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Litecoin Core</source>
+        <source>About Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1132,17 +1132,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Litecoin Core.</source>
+        <source>Welcome to Infinitecoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Infinitecoin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Infinitecoin Core will download and store a copy of the Infinitecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1157,8 +1157,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished">Litecoin Core</translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">Infinitecoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1229,13 +1229,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Automatically start Litecoin after logging in to the system.</translation>
+        <source>Automatically start Infinitecoin after logging in to the system.</source>
+        <translation>Automatically start Infinitecoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Start Litecoin on system login</translation>
+        <source>&amp;Start Infinitecoin on system login</source>
+        <translation>&amp;Start Infinitecoin on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1330,8 +1330,8 @@ Address: %4
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1340,7 +1340,7 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Infinitecoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1400,8 +1400,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1475,8 +1475,8 @@ Address: %4
     <message>
         <location line="+53"/>
         <location line="+372"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-133"/>
@@ -1618,7 +1618,7 @@ Address: %4
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start infinitecoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1628,7 +1628,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Infinitecoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1714,7 +1714,7 @@ Address: %4
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+109"/>
-        <source>Enter a Litecoin address (e.g. %1)</source>
+        <source>Enter a Infinitecoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2019,8 +2019,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2029,8 +2029,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Welcome to the Litecoin RPC console.</translation>
+        <source>Welcome to the Infinitecoin RPC console.</source>
+        <translation>Welcome to the Infinitecoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2125,7 +2125,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2423,7 +2423,7 @@ Address: %4
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for infinitecoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2621,7 +2621,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Warning: Invalid Litecoin address</source>
+        <source>Warning: Invalid Infinitecoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2686,7 +2686,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>The Litecoin address to send the payment to</source>
+        <source>The Infinitecoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2728,7 +2728,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <source>A message that was attached to the infinitecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Infinitecoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2753,7 +2753,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+47"/>
-        <source>Litecoin Core is shutting down...</source>
+        <source>Infinitecoin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,7 +2781,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The Litecoin address to sign the message with</source>
+        <source>The Infinitecoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2823,8 +2823,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Sign the message to prove you own this Litecoin address</translation>
+        <source>Sign the message to prove you own this Infinitecoin address</source>
+        <translation>Sign the message to prove you own this Infinitecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2854,13 +2854,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The Litecoin address the message was signed with</source>
+        <source>The Infinitecoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Litecoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Infinitecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2948,8 +2948,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+35"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished">Litecoin Core</translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">Infinitecoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3660,7 +3660,7 @@ Address: %4
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Infinitecoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3890,7 +3890,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Infinitecoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3920,12 +3920,12 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in IFC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in IFC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3975,7 +3975,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litecoind, or the -server option to infinitecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=litecoinrpc
@@ -3984,7 +3984,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Infinitecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3995,7 +3995,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Infinitecoin Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4030,7 +4030,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+12"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4050,7 +4050,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in IFC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4060,7 +4060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Infinitecoin Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4105,7 +4105,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+7"/>
-        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Infinitecoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4200,7 +4200,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Infinitecoin Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

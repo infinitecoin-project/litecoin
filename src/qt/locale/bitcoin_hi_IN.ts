@@ -164,8 +164,8 @@
         <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -188,8 +188,8 @@
         <translation>टैबस टूलबार</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n सक्रिया संपर्क Litecoin नेटवर्क से</numerusform><numerusform>%n सक्रिया संपर्क Litecoin नेटवर्क से</numerusform></translation>
+        <source>%n active connection(s) to Infinitecoin network</source>
+        <translation><numerusform>%n सक्रिया संपर्क Infinitecoin नेटवर्क से</numerusform><numerusform>%n सक्रिया संपर्क Infinitecoin नेटवर्क से</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>

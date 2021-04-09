@@ -46,7 +46,7 @@
         <translation>V&amp;ali</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Need on sinu Litecoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
@@ -152,8 +152,8 @@
         <translation>Rahakott krüpteeritud</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista litecoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Infinitecoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista litecoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -255,11 +255,11 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
+        <source>Send coins to a Infinitecoin address</source>
         <translation>Saada münte Litecoini aadressile</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
+        <source>Modify configuration options for Infinitecoin</source>
         <translation>Muuda Litecoini seadeid</translation>
     </message>
     <message>
@@ -283,8 +283,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -311,11 +311,11 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Litecoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Litecoini aadressiga</translation>
     </message>
     <message>
@@ -335,11 +335,11 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
+        <source>%n active connection(s) to Infinitecoin network</source>
         <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
     </message>
     <message numerus="yes">
@@ -551,7 +551,7 @@ Aadress: %4⏎</translation>
         <translation>Selline aadress on juba olemas: "%1"</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <source>The entered address "%1" is not a valid Infinitecoin address.</source>
         <translation>Sisestatud aadress "%1" ei ole Litecoinis kehtiv.</translation>
     </message>
     <message>
@@ -573,7 +573,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message>
@@ -581,7 +581,7 @@ Aadress: %4⏎</translation>
         <translation>versioon</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
+        <source>About Infinitecoin Core</source>
         <translation>Kirjeldus Litecoini Tuumast</translation>
     </message>
     <message>
@@ -620,7 +620,7 @@ Aadress: %4⏎</translation>
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message>
@@ -646,12 +646,12 @@ Aadress: %4⏎</translation>
         <translation>Valikud</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Käivita Litecoin süsteemi logimisel.</translation>
+        <source>Automatically start Infinitecoin after logging in to the system.</source>
+        <translation>Käivita Infinitecoin süsteemi logimisel.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Start Litecoin sisselogimisel</translation>
+        <source>&amp;Start Infinitecoin on system login</source>
+        <translation>&amp;Start Infinitecoin sisselogimisel</translation>
     </message>
     <message>
         <source>MB</source>
@@ -678,7 +678,7 @@ Aadress: %4⏎</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Litecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
@@ -726,7 +726,7 @@ Aadress: %4⏎</translation>
         <translation>Kasutajaliidese &amp;keel:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</source>
         <translation>Kasutajaliidese keele valimise koht. Valik rakendub Litecoini käivitamisel.</translation>
     </message>
     <message>
@@ -765,8 +765,8 @@ Aadress: %4⏎</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Litecoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Infinitecoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -792,8 +792,8 @@ Aadress: %4⏎</translation>
         <translation>URI käsitsemine</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Litecoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start infinitecoin: click-to-pay handler</source>
+        <translation>Infinitecoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -908,7 +908,7 @@ Aadress: %4⏎</translation>
         <translation>Debugimise logifail</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ava Litecoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
@@ -916,7 +916,7 @@ Aadress: %4⏎</translation>
         <translation>Puhasta konsool</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
+        <source>Welcome to the Infinitecoin RPC console.</source>
         <translation>Teretulemast Litecoini RPC konsooli.</translation>
     </message>
     <message>
@@ -1213,7 +1213,7 @@ Aadress: %4⏎</translation>
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Infinitecoin address</source>
         <translation>Allkirjasta sõnum Litecoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
@@ -1237,7 +1237,7 @@ Aadress: %4⏎</translation>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
     </message>
     <message>
@@ -1304,7 +1304,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message>
