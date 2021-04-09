@@ -39,6 +39,7 @@ static std::map<string, unsigned int> mapFlagNames = boost::assign::map_list_of
     (string("MINIMALDATA"), (unsigned int)SCRIPT_VERIFY_MINIMALDATA)
     (string("NULLDUMMY"), (unsigned int)SCRIPT_VERIFY_NULLDUMMY)
     (string("DISCOURAGE_UPGRADABLE_NOPS"), (unsigned int)SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS)
+    (string("CLEANSTACK"), (unsigned int)SCRIPT_VERIFY_CLEANSTACK)
     (string("CHECKLOCKTIMEVERIFY"), (unsigned int)SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY);
 
 unsigned int ParseScriptFlags(string strFlags)
@@ -339,7 +340,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     string reason;
     BOOST_CHECK(IsStandardTx(t, reason));
 
-    // Litecoin: IsDust() is disabled in favor of the per-dust output fee
+    // Infinitecoin: IsDust() is disabled in favor of the per-dust output fee
     //t.vout[0].nValue = 501; // dust
     //BOOST_CHECK(!IsStandardTx(t, reason));
 

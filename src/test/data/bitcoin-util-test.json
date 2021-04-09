@@ -1,39 +1,39 @@
 [
-  { "exec": "././litecoin-tx",
+  { "exec": "././infinitecoin-tx",
     "args": ["-create"],
     "output_cmp": "blanktx.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-"],
     "input": "blanktx.hex",
     "output_cmp": "blanktx.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-", "delin=1"],
     "input": "tx394b54bb.hex",
     "output_cmp": "tt-delin1-out.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-", "delin=31"],
     "input": "tx394b54bb.hex",
     "return_code": 1
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-", "delout=1"],
     "input": "tx394b54bb.hex",
     "output_cmp": "tt-delout1-out.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-", "delout=2"],
     "input": "tx394b54bb.hex",
     "return_code": 1
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-", "locktime=317000"],
     "input": "tx394b54bb.hex",
     "output_cmp": "tt-locktime317000-out.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args":
     ["-create",
      "in=5ee62e3f7757f5fd995b2fa1bdb5b744298146098d5de92959ec4b52dc77191e:1",
@@ -43,11 +43,11 @@
      "outaddr=0.01000487:LV1ByjbJNFTHyFQqwqwdJXKJznYDzXzg4B"],
     "output_cmp": "txcreate1.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args": ["-create", "outscript=0:"],
     "output_cmp": "txcreate2.hex"
   },
-  { "exec": "./litecoin-tx",
+  { "exec": "./infinitecoin-tx",
     "args":
     ["-create",
      "in=6c2789243608b46f750f49ff24f6f79a78c3010f7e56951e045e5b7ea5d07bf7:0",
