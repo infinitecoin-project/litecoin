@@ -278,8 +278,8 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             return TransactionCreationFailed;
         }
 
-        // reject insane fee > 0.1 bitcoin
-        if (nFeeRequired > 10000000)
+        // reject insane fee > 10000 infinitecoin
+        if (nFeeRequired > 1000000000000)
             return InsaneFee;
     }
 
