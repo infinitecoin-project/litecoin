@@ -25,10 +25,11 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 {
     // set reference point, paddings
     int paddingRight            = 190;
-    int paddingRightCopyright   = 220;
+    int paddingRightCopyright   = 270;
     int paddingTop              = 170;
     int paddingCopyrightTop     = 70;
     int titleCopyrightVSpace    = 14;
+	int titleCopyrightVSpace3    = 28;
 
     float fontFactor            = 1.0;
 
@@ -36,6 +37,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightText1   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
     QString copyrightText2   = QChar(0xA9)+QString(" 2011-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Litecoin Core developers"));
+	QString copyrightText3   = QChar(0xA9)+QString(" 2013-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Infinitecoin Core developers"));
     QString titleAddText    = networkStyle->getTitleAddText();
     QString font            = QApplication::font().toString();
 
@@ -55,6 +57,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     pixPaint.setFont(QFont(font, 8*fontFactor));
     pixPaint.drawText(pixmap.width()-paddingRightCopyright,paddingTop+paddingCopyrightTop,copyrightText1);
     pixPaint.drawText(pixmap.width()-paddingRightCopyright,paddingTop+paddingCopyrightTop+titleCopyrightVSpace,copyrightText2);
+	pixPaint.drawText(pixmap.width()-paddingRightCopyright,paddingTop+paddingCopyrightTop+titleCopyrightVSpace3,copyrightText3);
 
     // draw additional text if special network
     if(!titleAddText.isEmpty()) {
