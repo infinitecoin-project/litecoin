@@ -168,7 +168,7 @@ public:
         vSeeds.push_back(CDNSSeedData("ifcf2pool.com", "dnsseed.ifcf2pool.com"));
 	vSeeds.push_back(CDNSSeedData("ifcp2pool.com", "dnsseed.ifcp2pool.com"));
         vSeeds.push_back(CDNSSeedData("amxpool.com", "dnsseed.amxpool.com"));
-        vSeeds.push_back(CDNSSeedData("amzpool.com", "dnsseed.amzpool.co"));
+        vSeeds.push_back(CDNSSeedData("amzpool.com", "dnsseed.amzpool.com"));
         vSeeds.push_back(CDNSSeedData("bmapool.com", "dnsseed.bmapool.com"));
         vSeeds.push_back(CDNSSeedData("dyjykj.com", "dnsseed.dyjykj.com"));
         vSeeds.push_back(CDNSSeedData("coinwk.com", "dnsseed.coinwk.com"));
