@@ -1,4 +1,4 @@
-# Using cross-compilation can solve the compatibility problem of macOS version.
+## Using cross-compilation can solve the compatibility problem of macOS version.
 
 ```
 cd depends
@@ -12,7 +12,7 @@ Note: The cross-compilation is only successful on macOS . If you use ubuntu, you
 
 ====================================
 
-# The following content is out of date and can only be used for reference only.
+## The following content is out of date and can only be used for reference only.
 
 
 
