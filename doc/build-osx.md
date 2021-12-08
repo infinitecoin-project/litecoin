@@ -1,17 +1,20 @@
 # Using cross-compilation can solve the compatibility problem of macOS version.
 
-cd depends
-make HOST=x86_64-apple-darwin11
-cd ..
-./autogen.sh
-CONFIG_SITE=$PWD/depends/HOST=x86_64-apple-darwin11/share/config.site ./configure --prefix=/$(pwd)/depends/x86_64-apple-darwin11
-make
+* cd depends
+* make HOST=x86_64-apple-darwin11
+* cd ..
+* ./autogen.sh
+* CONFIG_SITE=$PWD/depends/HOST=x86_64-apple-darwin11/share/config.site ./configure --prefix=/$(pwd)/depends/x86_64-apple-darwin11
+* make
 
 Note: The cross-compilation is only successful on macOS . If you use ubuntu, you will encounter problems that some tools cannot be installed.
 
 ====================================
 
 # The following content is out of date and can only be used for reference only.
+
+
+
 
 Mac OS X Build Instructions and Notes
 ====================================
