@@ -1,6 +1,6 @@
 package=xproto
 $(package)_version=7.0.26
-$(package)_download_path=http://xorg.freedesktop.org/releases/individual/proto
+$(package)_download_path=https://github.com/msy2008/Toolbox/releases/download/v1.0
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
 $(package)_sha256_hash=636162c1759805a5a0114a369dffdeccb8af8c859ef6e1445f26a4e6e046514f
 
