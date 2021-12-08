@@ -1,3 +1,31 @@
+## Using cross-compilation can solve the compatibility problem of linux version.
+
+```
+cd depends
+make HOST=x86_64-unknown-linux-gnu
+cd ..
+./autogen.sh
+CONFIG_SITE=$PWD/depends/x86_64-unknown-linux-gnu/share/config.site ./configure --prefix=/$(pwd)/depends/x86_64-unknown-linux-gnu
+make
+```
+
+Problems you may encounter missing kernel header files:
+```
+sudo apt-get install linux-headers-generic
+```
+depending on your ubuntu version you should specify a different gcc version:
+```
+sudo apt-get install g++-4.8-multilib
+```
+
+====================================
+
+## The following content is out of date and can only be used for reference only.
+
+
+
+
+
 UNIX BUILD NOTES
 ====================
 Some notes on how to build Infinitecoin in Unix. 
