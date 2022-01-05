@@ -42,11 +42,11 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
 	HiddenServiceDir /var/lib/tor/bitcoin-service/
-	HiddenServicePort 9321 127.0.0.1:9321
-	HiddenServicePort 19321 127.0.0.1:19321
+	HiddenServicePort 8333 127.0.0.1:8333
+	HiddenServicePort 18333 127.0.0.1:18333
 
 The directory can be different of course, but (both) port numbers should be equal to
-your bitcoind's P2P listen port (9321 by default).
+your bitcoind's P2P listen port (8333 by default).
 
 	-externalip=X   You can tell bitcoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -70,15 +70,37 @@ In a typical situation, where you're only reachable via Tor, this should suffice
 
 	./bitcoind -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
 
-(obviously, replace the Onion address with your own). If you don't care too much
-about hiding your node, and want to be reachable on IPv4 as well, additionally
-specify:
+(obviously, replace the Onion address with your own). It should be noted that you still
+listen on all devices and another node could establish a clearnet connection, when knowing
+your address. To mitigate this, additionally bind the address of your Tor proxy:
+
+	./bitcoind ... -bind=127.0.0.1
+
+If you don't care too much about hiding your node, and want to be reachable on IPv4
+as well, use `discover` instead:
 
 	./bitcoind ... -discover
 
-and open port 9321 on your firewall (or use -upnp).
+and open port 8333 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
 	./bitcoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+
+3. Automatically listen on Tor
+--------------------------------
+
+Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
+API, to create and destroy 'ephemeral' hidden services programmatically.
+Bitcoin Core has been updated to make use of this.
+
+This means that if Tor is running (and proper authorization is available),
+Bitcoin Core automatically creates a hidden service to listen on, without
+manual configuration. This will positively affect the number of available
+.onion nodes.
+
+This new feature is enabled by default if Bitcoin Core is listening, and
+a connection to Tor can be made. It can be configured with the `-listenonion`,
+`-torcontrol` and `-torpassword` settings. To show verbose debugging
+information, pass `-debug=tor`.
