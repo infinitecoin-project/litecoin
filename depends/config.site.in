@@ -1,4 +1,3 @@
-prefix="`dirname ${ac_site_file}`/.."
 cross_compiling=maybe
 host_alias=@HOST@
 ac_tool_prefix=${host_alias}-
