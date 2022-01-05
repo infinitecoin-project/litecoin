@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Infinitecoin"
-            VALUE "FileDescription",    "infinitecoin-cli (JSON-RPC client for Infinitecoin Core)"
+            VALUE "FileDescription",    "infinitecoin-tx (CLI Infinitecoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "infinitecoin-cli"
+            VALUE "InternalName",       "infinitecoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "infinitecoin-cli.exe"
-            VALUE "ProductName",        "infinitecoin-cli"
+            VALUE "OriginalFilename",   "infinitecoin-tx.exe"
+            VALUE "ProductName",        "infinitecoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

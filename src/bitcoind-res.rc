@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Infinitecoin"
-            VALUE "FileDescription",    "Infinitecoind (OSS daemon/client for Infinitecoin)"
+            VALUE "FileDescription",    "infinitecoind (Infinitecoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "infinitecoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
-            VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
+            VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "infinitecoind.exe"
-            VALUE "ProductName",        "Infinitecoind"
+            VALUE "ProductName",        "infinitecoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
