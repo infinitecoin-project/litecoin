@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>无限币核心</translation>
+        <translation>Infinitecoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
