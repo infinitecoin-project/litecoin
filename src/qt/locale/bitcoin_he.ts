@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלה כתובת הביטקוין שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
+        <translation>אלה כתובת Infinitecoin שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
     </message>
     <message>
         <source>These are your Infinitecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>אלה כתובות הביטקוין שלך לצורך קבלת תשלומים. מומלץ להשתמש בכתובת קבלה חדשה לכל העברה.</translation>
+        <translation>אלה כתובות Infinitecoin שלך לצורך קבלת תשלומים. מומלץ להשתמש בכתובת קבלה חדשה לכל העברה.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR INFINITECOINS&lt;/b&gt;!</source>
-        <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל הביטקוינים שלך&lt;/b&gt;!</translation>
+        <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל INFINITECOINS שלך&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Infinitecoin Core client</source>
-        <translation>לקוח ליבה של ביטקוין</translation>
+        <translation>לקוח ליבה של Infinitecoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Send coins to a Infinitecoin address</source>
-        <translation>שליחת מטבעות לכתובת ביטקוין</translation>
+        <translation>שליחת מטבעות לכתובת Infinitecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,7 +323,7 @@
     </message>
     <message>
         <source>Infinitecoin</source>
-        <translation>ביטקוין</translation>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Show information about Infinitecoin Core</source>
-        <translation>הצגת מידע על ליבת ביטקוין</translation>
+        <translation>הצגת מידע על ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,11 +355,11 @@
     </message>
     <message>
         <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
-        <translation>חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+        <translation>חתום על הודעות עם כתובות Infinitecoin שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
-        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
+        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת Infinitecoin מסוימות</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,7 +379,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>ליבת ביטקוין</translation>
+        <translation>ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>&amp;About Infinitecoin Core</source>
-        <translation>על &amp;אודות ליבת ביטקוין</translation>
+        <translation>על &amp;אודות ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Open a infinitecoin: URI or payment request</source>
-        <translation>פתיחת ביטקוין: כתובת משאב או בקשת תשלום</translation>
+        <translation>פתיחת Infinitecoin: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -407,7 +407,7 @@
     </message>
     <message>
         <source>Show the Infinitecoin Core help message to get a list with possible Infinitecoin command-line options</source>
-        <translation>הצגת הודעות העזרה של ליבת ביטקוין כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של ביטקוין</translation>
+        <translation>הצגת הודעות העזרה של ליבת Infinitecoin כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של Infinitecoin</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -716,7 +716,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Infinitecoin address.</source>
-        <translation>הכתובת שהוכנסה „%1“ אינה כתובת ביטקוין תקנית.</translation>
+        <translation>הכתובת שהוכנסה „%1“ אינה כתובת Infinitecoin תקנית.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -754,7 +754,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>ליבת ביטקוין</translation>
+        <translation>ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -766,7 +766,7 @@
     </message>
     <message>
         <source>About Infinitecoin Core</source>
-        <translation>על אודות ליבת ביטקוין</translation>
+        <translation>על אודות ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -789,15 +789,15 @@
     </message>
     <message>
         <source>Welcome to Infinitecoin Core.</source>
-        <translation>ברוך בואך לליבת ביטקוין</translation>
+        <translation>ברוך בואך לליבת Infinitecoin</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Infinitecoin Core will store its data.</source>
-        <translation>מכיוון שזאת הפעם הראשונה שהתכנית פועלת ניתן לבחור איפה ליבת ביטקוין תאחסן את הנתונים שלה.</translation>
+        <translation>מכיוון שזאת הפעם הראשונה שהתכנית פועלת ניתן לבחור איפה ליבת Infinitecoin תאחסן את הנתונים שלה.</translation>
     </message>
     <message>
         <source>Infinitecoin Core will download and store a copy of the Infinitecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>לקוח ביטקוין יוריד וישמור העתק של שרשרת המקטעים של ביטקוין. לפחות %1 ג״ב מהנתונים יאוחסנו בתיקייה זו, והיא תגדל עם הזמן. הארנק גם יאוחסן בתיקייה הזו.</translation>
+        <translation>לקוח Infinitecoin יוריד וישמור העתק של שרשרת המקטעים של Infinitecoin. לפחות %1 ג״ב מהנתונים יאוחסנו בתיקייה זו, והיא תגדל עם הזמן. הארנק גם יאוחסן בתיקייה הזו.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -809,7 +809,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>ליבת ביטקוין</translation>
+        <translation>ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -927,7 +927,7 @@
     </message>
     <message>
         <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+        <translation>פתיחת הפתחה של Infinitecoin בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1022,7 +1022,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת Infinitecoin לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1117,7 +1117,7 @@
     </message>
     <message>
         <source>Cannot start infinitecoin: click-to-pay handler</source>
-        <translation>לא ניתן להתחיל את ביטקוין: טיפול בלחיצה–לתשלום </translation>
+        <translation>לא ניתן להתחיל את Infinitecoin: טיפול בלחיצה–לתשלום </translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Infinitecoin address or malformed URI parameters.</source>
-        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת ביטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
+        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת Infinitecoin שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1183,7 +1183,7 @@
     </message>
     <message>
         <source>Enter a Infinitecoin address (e.g. %1)</source>
-        <translation>נא להזין כתובת ביטקוין (למשל: %1)</translation>
+        <translation>נא להזין כתובת Infinitecoin (למשל: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1464,7 +1464,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>
-        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ביטקוין.</translation>
+        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת Infinitecoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1765,7 +1765,7 @@
     </message>
     <message>
         <source>Warning: Invalid Infinitecoin address</source>
-        <translation>אזהרה: כתובת ביטקוין שגויה</translation>
+        <translation>אזהרה: כתובת Infinitecoin שגויה</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1816,7 +1816,7 @@
     </message>
     <message>
         <source>The Infinitecoin address to send the payment to</source>
-        <translation>כתובת הביטקוין של המוטב</translation>
+        <translation>כתובת Infinitecoin של המוטב</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1844,7 +1844,7 @@
     </message>
     <message>
         <source>A message that was attached to the infinitecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Infinitecoin network.</source>
-        <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
+        <translation>הודעה שצורפה Infinitecoin: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת Infinitecoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1859,7 +1859,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Infinitecoin Core is shutting down...</source>
-        <translation>ליבת ביטקוין נסגרת…</translation>
+        <translation>ליבת Infinitecoin נסגרת…</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1878,7 +1878,7 @@
     </message>
     <message>
         <source>The Infinitecoin address to sign the message with</source>
-        <translation>כתובת הביטקוין אתה לחתום אתה את ההודעה</translation>
+        <translation>כתובת Infinitecoin אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1910,7 +1910,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Infinitecoin address</source>
-        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת הביטקוין הזו בבעלותך.</translation>
+        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת Infinitecoin הזו בבעלותך.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1930,11 +1930,11 @@
     </message>
     <message>
         <source>The Infinitecoin address the message was signed with</source>
-        <translation>כתובת הביטקוין שאתה נחתמה ההודעה</translation>
+        <translation>כתובת Infinitecoin שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
-        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
+        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת Infinitecoin הנתונה</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2515,7 +2515,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Infinitecoin Core is probably already running.</source>
-        <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת ביטקוין כבר פועלת.</translation>
+        <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת Infinitecoin כבר פועלת.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2655,7 +2655,7 @@
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Infinitecoin Core</source>
-        <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת ביטקוין</translation>
+        <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת Infinitecoin</translation>
     </message>
     <message>
         <source>Information</source>
@@ -2663,7 +2663,7 @@
     </message>
     <message>
         <source>Initialization sanity check failed. Infinitecoin Core is shutting down.</source>
-        <translation>בדיקת התקינות ההתחלתית נכשלה. ליבת ביטקוין תיסגר כעת.</translation>
+        <translation>בדיקת התקינות ההתחלתית נכשלה. ליבת Infinitecoin תיסגר כעת.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -2739,7 +2739,7 @@
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Infinitecoin Core to complete</source>
-        <translation>יש לכתוב את הארנק מחדש: נא להפעיל את ליבת ביטקוין מחדש כדי להשלים את הפעולה</translation>
+        <translation>יש לכתוב את הארנק מחדש: נא להפעיל את ליבת Infinitecoin מחדש כדי להשלים את הפעולה</translation>
     </message>
     <message>
         <source>Warning</source>
