@@ -149,7 +149,7 @@ public:
             return 0;
 
         size_t nSize = GetSerializeSize(SER_DISK,0)+148u;
-        return 3*minRelayTxFee.GetFee(nSize);
+        return minRelayTxFee.GetFee(nSize);
     }
 
     bool IsDust(const CFeeRate &minRelayTxFee) const
