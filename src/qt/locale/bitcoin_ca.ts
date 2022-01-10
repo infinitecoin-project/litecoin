@@ -1987,7 +1987,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for infinitecoin transactions than the network can process.</source>
-        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de infinitecoins que la xarxa pugui processar.</translation>
+        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de infinitecoin que la xarxa pugui processar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
