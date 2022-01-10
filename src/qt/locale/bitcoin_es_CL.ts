@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>Infinitecoin Core client</source>
-        <translation>cliente infinitecoin core</translation>
+        <translation>cliente Infinitecoin core</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Send coins to a Infinitecoin address</source>
-        <translation>Enviar monedas a una dirección infinitecoin</translation>
+        <translation>Enviar monedas a una dirección Infinitecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>infinitecoin core</translation>
+        <translation>Infinitecoin core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
@@ -351,7 +351,7 @@
     </message>
     <message>
         <source>Modify configuration options for Infinitecoin Core</source>
-        <translation>Modifica las opciones para BitCoin Core</translation>
+        <translation>Modifica las opciones para Infinitecoin Core</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -539,7 +539,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>infinitecoin core</translation>
+        <translation>Infinitecoin core</translation>
     </message>
     <message>
         <source>version</source>
@@ -562,7 +562,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>infinitecoin core</translation>
+        <translation>Infinitecoin core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1073,7 +1073,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>infinitecoin core</translation>
+        <translation>Infinitecoin core</translation>
     </message>
     <message>
         <source>[testnet]</source>
