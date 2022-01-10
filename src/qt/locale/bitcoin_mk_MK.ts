@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Изберете адресата за да пратите биткоини</translation>
+        <translation>Изберете адресата за да пратите coins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Изберете адресата за да примите биткоини</translation>
+        <translation>Изберете адресата за да примите coins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR INFINITECOINS&lt;/b&gt;!</source>
-        <translation>Предупредување: Ако го шифрирате вашиот паричник и ја изгубите вашата тајна фраза, ќе &lt;b&gt;ГИ ИЗГУБИТЕ СИТЕ ВАШИ БИТКОИНИ&lt;/b&gt;!</translation>
+        <translation>Предупредување: Ако го шифрирате вашиот паричник и ја изгубите вашата тајна фраза, ќе &lt;b&gt;ГИ ИЗГУБИТЕ СИТЕ ВАШИ INFINITECOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Infinitecoin Core client</source>
-        <translation>Биткоин Core софтверот</translation>
+        <translation>Infinitecoin Core софтверот</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>Send coins to a Infinitecoin address</source>
-        <translation>Испрати биткоини на Биткоин адреса</translation>
+        <translation>Испрати coins на Infinitecoin адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Infinitecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Show information about Infinitecoin Core</source>
-        <translation>Прикажи информации за Биткоин Core</translation>
+        <translation>Прикажи информации за Infinitecoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -307,11 +307,11 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <translation>Infinitecoin Core</translation>
     </message>
     <message>
         <source>&amp;About Infinitecoin Core</source>
-        <translation>&amp;За Биткоин Core</translation>
+        <translation>&amp;За Infinitecoin Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -576,7 +576,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <translation>Infinitecoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -588,14 +588,14 @@
     </message>
     <message>
         <source>About Infinitecoin Core</source>
-        <translation>За Биткоин Core</translation>
+        <translation>За Infinitecoin Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <translation>Infinitecoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -935,7 +935,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <translation>Infinitecoin Core</translation>
     </message>
     </context>
 <context>
