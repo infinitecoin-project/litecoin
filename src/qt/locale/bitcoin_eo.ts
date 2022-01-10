@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Bitmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <translation>Jen viaj Infinitecoin adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
         <source>These are your Infinitecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj bitmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation>Jen viaj Infinitecoin adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR INFINITECOINS&lt;/b&gt;!</source>
-        <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
+        <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA INFINITECOINS&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Infinitecoin Core client</source>
-        <translation>kliento de bitmon-kerno</translation>
+        <translation>kliento de Infinitecoin kerno</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Send coins to a Infinitecoin address</source>
-        <translation>Sendi monon al Bitmon-adreso</translation>
+        <translation>Sendi monon al Infinitecoin adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,7 +323,7 @@
     </message>
     <message>
         <source>Infinitecoin</source>
-        <translation>Bitmono</translation>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Show information about Infinitecoin Core</source>
-        <translation>Vidigi informon pri Bitmona Kerno</translation>
+        <translation>Vidigi informon pri Infinitecoin Kerno</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,11 +355,11 @@
     </message>
     <message>
         <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Bitmon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <translation>Subskribi mesaĝojn per via Infinitecoin adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Bitmon-adresoj</translation>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Infinitecoin adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,7 +379,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Kerno de Bitmono</translation>
+        <translation>Kerno de Infinitecoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and infinitecoin: URIs)</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>&amp;About Infinitecoin Core</source>
-        <translation>&amp;Pri la Bitmona Kerno</translation>
+        <translation>&amp;Pri la Infinitecoin Kerno</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -752,7 +752,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Infinitecoin address.</source>
-        <translation>La adreso enigita "%1" ne estas valida Bitmon-adreso.</translation>
+        <translation>La adreso enigita "%1" ne estas valida Infinitecoin adreso.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -790,7 +790,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Kerno de Bitmono</translation>
+        <translation>Kerno de Infinitecoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -798,7 +798,7 @@
     </message>
     <message>
         <source>About Infinitecoin Core</source>
-        <translation>Pri la Bitmona Kerno</translation>
+        <translation>Pri la Infinitecoin Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -829,7 +829,7 @@
     </message>
     <message>
         <source>Infinitecoin Core will download and store a copy of the Infinitecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Infinitecoin Core elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+        <translation>Infinitecoin Core elŝutos kaj konservos kopion de la Infinitecoin blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -841,7 +841,7 @@
     </message>
     <message>
         <source>Infinitecoin Core</source>
-        <translation>Kerno de Bitmono</translation>
+        <translation>Kerno de Infinitecoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -919,7 +919,7 @@
     </message>
     <message>
         <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Bitmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <translation>Aŭtomate malfermi la kursilan pordon por Infinitecoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1014,7 +1014,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la Infinitecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1073,7 +1073,7 @@
     </message>
     <message>
         <source>Cannot start infinitecoin: click-to-pay handler</source>
-        <translation>Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
+        <translation>Cannot start infinitecoin: click-to-pay handler</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1421,7 +1421,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Bitmonon</translation>
+        <translation>Sendi Coins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1557,7 +1557,7 @@
     </message>
     <message>
         <source>Warning: Invalid Infinitecoin address</source>
-        <translation>Averto: Nevalida Bitmon-adreso</translation>
+        <translation>Averto: Nevalida Infinitecoin adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1682,7 +1682,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Infinitecoin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Bitmon-adreso</translation>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Infinitecoin adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1702,7 +1702,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Bitmon-adreso</translation>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Infinitecoin adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2133,7 +2133,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Bitmonon</translation>
+        <translation>Sendi Coins</translation>
     </message>
 </context>
 <context>
