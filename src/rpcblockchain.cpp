@@ -329,8 +329,8 @@ UniValue getblockheader(const UniValue& params, bool fHelp)
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
             "\nExamples:\n"
-            + HelpExampleCli("getblockheader", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
-            + HelpExampleRpc("getblockheader", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
+            + HelpExampleCli("getblockheader", "\"6f6e5a12142afab2b56598002fedc5b1474db7ffe38d55567197f426ac041bbd\"")
+            + HelpExampleRpc("getblockheader", "\"6f6e5a12142afab2b56598002fedc5b1474db7ffe38d55567197f426ac041bbd\"")
         );
 
     LOCK(cs_main);
@@ -392,8 +392,8 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
             "\nExamples:\n"
-            + HelpExampleCli("getblock", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
-            + HelpExampleRpc("getblock", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
+            + HelpExampleCli("getblock", "\"6f6e5a12142afab2b56598002fedc5b1474db7ffe38d55567197f426ac041bbd\"")
+            + HelpExampleRpc("getblock", "\"6f6e5a12142afab2b56598002fedc5b1474db7ffe38d55567197f426ac041bbd\"")
         );
 
     LOCK(cs_main);
