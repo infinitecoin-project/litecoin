@@ -152,7 +152,7 @@ UniValue validateaddress(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "validateaddress \"infinitecoinaddress\"\n"
-            "\nReturn information about the given bitcoin address.\n"
+            "\nReturn information about the given infinitecoin address.\n"
             "\nArguments:\n"
             "1. \"infinitecoinaddress\"     (string, required) The infinitecoin address to validate\n"
             "\nResult:\n"
@@ -293,9 +293,9 @@ UniValue createmultisig(const UniValue& params, bool fHelp)
 
             "\nExamples:\n"
             "\nCreate a multisig address from 2 addresses\n"
-            + HelpExampleCli("createmultisig", "2 \"[\\\"16sSauSf5pF2UkUwvKGq4qjNRzBZYqgEL5\\\",\\\"171sgjn4YtPu27adkKGrdDwzRTxnRkBfKV\\\"]\"") +
+            + HelpExampleCli("createmultisig", "2 \"[\\\"i7eSiqgW3FfihBsrPWGB13H6dNtkiNEjC3\\\",\\\"i9YSUz2mhGCD5SpTkt5BYbYyjxXjgefEaa\\\"]\"") +
             "\nAs a json rpc call\n"
-            + HelpExampleRpc("createmultisig", "2, \"[\\\"16sSauSf5pF2UkUwvKGq4qjNRzBZYqgEL5\\\",\\\"171sgjn4YtPu27adkKGrdDwzRTxnRkBfKV\\\"]\"")
+            + HelpExampleRpc("createmultisig", "2, \"[\\\"i7eSiqgW3FfihBsrPWGB13H6dNtkiNEjC3\\\",\\\"i9YSUz2mhGCD5SpTkt5BYbYyjxXjgefEaa\\\"]\"")
         ;
         throw runtime_error(msg);
     }
@@ -328,11 +328,11 @@ UniValue verifymessage(const UniValue& params, bool fHelp)
             "\nUnlock the wallet for 30 seconds\n"
             + HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n"
-            + HelpExampleCli("signmessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"my message\"") +
+            + HelpExampleCli("signmessage", "\"iSkNiPuBTPcxfyfUgQHUNfMYSHBPtHmse9\" \"my message\"") +
             "\nVerify the signature\n"
-            + HelpExampleCli("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"signature\" \"my message\"") +
+            + HelpExampleCli("verifymessage", "\"iSkNiPuBTPcxfyfUgQHUNfMYSHBPtHmse9\" \"signature\" \"my message\"") +
             "\nAs json rpc\n"
-            + HelpExampleRpc("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\", \"signature\", \"my message\"")
+            + HelpExampleRpc("verifymessage", "\"iSkNiPuBTPcxfyfUgQHUNfMYSHBPtHmse9\", \"signature\", \"my message\"")
         );
 
     LOCK(cs_main);
