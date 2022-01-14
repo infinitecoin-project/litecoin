@@ -1625,8 +1625,8 @@
         <translation>Recyklovat již dříve použité adresy. Recyklace adres má bezpečnostní rizika a narušuje soukromí. Nezaškrtávejte to, pokud znovu nevytváříte již dříve vytvořený platební požadavek.</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>&amp;Recyklovat již existující adresy (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>

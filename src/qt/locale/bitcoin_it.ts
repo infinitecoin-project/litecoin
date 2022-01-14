@@ -1758,8 +1758,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Riutilizza uno degli indirizzi di ricezione generati in precedenza. Riutilizzare un indirizzo comporta problemi di sicurezza e privacy. Non selezionare questa opzione a meno che non si stia rigenerando una richiesta di pagamento creata in precedenza.</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>R&amp;iusa un indirizzo di ricezione (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>

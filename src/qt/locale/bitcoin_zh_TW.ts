@@ -1761,8 +1761,8 @@
         <translation>重複使用先前使用過的收款位址。重複使用位址會有安全和隱私方面的問題。除非是要重新產生先前的付款要求，不然請不要使用。</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>重複使用現有的收款位址(不建議)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>重複使用現有的收款位址(不推薦，但創建新地址需要重新備份)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>

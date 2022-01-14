@@ -1757,8 +1757,8 @@
         <translation>重复使用以前用过的接收地址。重用地址有安全和隐私方面的隐患。除非是为重复生成同一项支付请求，否则请不要这样做。</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>重用现有的接收地址（不推荐）</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>重用现有的接收地址（不推荐，但创建新地址需要重新备份）</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Infinitecoin network.</source>

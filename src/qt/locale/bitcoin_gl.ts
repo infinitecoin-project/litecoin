@@ -1095,8 +1095,8 @@
         <translation>Reutilizar unha das direccións para recibir previas. Reutilizar direccións ten problemas de seguridade e privacidade. Non empregues esto agás que antes se fixese unha solicitude de rexeneración dun pago.</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;eutilizar unha dirección para recibir existente (non recomendado)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>R&amp;eutilizar unha dirección para recibir existente (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>

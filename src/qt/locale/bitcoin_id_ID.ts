@@ -1359,8 +1359,8 @@
         <translation>&amp;Pesan:</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>Gunakan lagi alamat penerima yang ada (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>

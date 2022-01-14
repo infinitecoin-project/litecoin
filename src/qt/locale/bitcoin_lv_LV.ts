@@ -1191,8 +1191,8 @@
         <translation>&amp;Ziņojums:</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;Atkārtoti izmantot esošo saņemšanas adresi (nav ieteicams)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>&amp;Atkārtoti izmantot esošo saņemšanas adresi (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>

@@ -1513,8 +1513,8 @@
         <translation>&amp;Μήνυμα:</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Ε&amp;παναχρησιμοποίηση υπάρχουσας διεύθυνσης λήψης (δεν συνιστάται)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>Ε&amp;παναχρησιμοποίηση υπάρχουσας διεύθυνσης λήψης (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>

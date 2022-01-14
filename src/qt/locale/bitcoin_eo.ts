@@ -1299,8 +1299,8 @@
         <translation>Reuzi unu el la jam uzitaj ricevaj adresoj. Reuzo de adresoj povas krei problemojn pri sekureco kaj privateco. Ne uzu tiun ĉi funkcion krom por rekrei antaŭe faritan pagopeton.</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;euzi ekzistantan ricevan adreson (malrekomendinda)</translation>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
+        <translation>R&amp;euzi ekzistantan ricevan adreson (not recommended , but creating new address requires again backup)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>

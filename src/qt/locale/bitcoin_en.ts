@@ -2276,7 +2276,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <source>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
