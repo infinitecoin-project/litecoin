@@ -158,7 +158,7 @@ public:
             1617855646, // * UNIX timestamp of last checkpoint block
             8322858,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            2880.0     // * estimated number of transactions per day after checkpoint
+            0.1125     // * estimated number of transactions per day after checkpoint
         };
     }
 };
