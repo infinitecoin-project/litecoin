@@ -34,7 +34,7 @@
            <string>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</string>
           </property>
           <property name="text">
-           <string>R&amp;euse an existing receiving address (not recommended)</string>
+           <string>R&amp;euse an existing receiving address (not recommended , but creating new address requires again backup)</string>
           </property>
          </widget>
         </item>
