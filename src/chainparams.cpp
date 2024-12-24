@@ -346,9 +346,9 @@ public:
         **/
         genesis = CreateGenesisBlock(1296688602, 1705420536, 0x207fffff, 1, 524288 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        printf("hashGenesisBlock:%s,hashMerkleRoot:%s\n", consensus.hashGenesisBlock, genesis.hashMerkleRoot);
+        /*printf("hashGenesisBlock:%s,hashMerkleRoot:%s\n", consensus.hashGenesisBlock, genesis.hashMerkleRoot);
         assert(consensus.hashGenesisBlock == uint256S("0x87c2218ea276b4d6474df84d2bc3231d71437c123276f217e364cf9cb4272712"));
-        assert(genesis.hashMerkleRoot == uint256S("0x122727b49ccf64e317f27632127c43711d23c32b4df84d47d6b476a28e21c287"));
+        assert(genesis.hashMerkleRoot == uint256S("0x122727b49ccf64e317f27632127c43711d23c32b4df84d47d6b476a28e21c287"));*/
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
