@@ -236,8 +236,10 @@ public:
         pchMessageStart[3] = 0xf1;
         nDefaultPort = 19335;
         nPruneAfterHeight = 1000;
-
-        genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
+        //./genesis 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9 "Miami Heat rout Indiana Pacers 99-76, advance to NBA Finals on June 3, 2013" 0x1e0ffff0 0 1486949366
+        //nBits=0x1e0ffff0
+        //startNonce=775597657
+        genesis = CreateGenesisBlock(1486949366, 775597657, 0x1e0ffff0, 1, 524288 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         //assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
         //assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
