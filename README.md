@@ -1,10 +1,10 @@
 Infinitecoin Core integration/staging tree
-=====================================
+==========================================
 
 https://infinitecoin.com
 
 What is Infinitecoin?
-----------------
+---------------------
 
 Infinitecoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Infinitecoin uses peer-to-peer technology to operate
@@ -61,6 +61,43 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
+
+
+### Test in regTestNet
+
+now you can test regtest net for quick smoke testing,here is some tips.
+
+test in regtest net
+
+create infinitecoin.conf in /home/{user}/.infinitecoin with config:
+
+`
+
+regtest=1
+rpcuser=test
+rpcpassword=abcd11111
+
+`
+
+start qt with regtest net:
+
+```
+./infinitecoin-qt -regtest -rescan -reindex -connect=0 -txindex -server -rest -bind=127.0.0.1 -printtoconsole -datadir=/home/infinitecoindata
+```
+
+get new address:
+
+```
+./infinitecoin-cli  -regtest  getnewaddress
+```
+
+gen new blockchain:
+
+```
+./infinitecoin-cli -regtest -rpcuser=test -rpcpassword=abcd11111 generate 150
+```
+
+
 
 Translations
 ------------
