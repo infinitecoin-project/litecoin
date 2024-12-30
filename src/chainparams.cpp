@@ -236,8 +236,10 @@ public:
         pchMessageStart[3] = 0xf1;
         nDefaultPort = 19335;
         nPruneAfterHeight = 1000;
-
-        genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
+        //./genesis 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9 "Miami Heat rout Indiana Pacers 99-76, advance to NBA Finals on June 3, 2013" 0x1e0ffff0 0 1486949366
+        //nBits=0x1e0ffff0
+        //startNonce=775597657
+        genesis = CreateGenesisBlock(1486949366, 775597657, 0x1e0ffff0, 1, 524288 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         //assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
         //assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
@@ -319,11 +321,36 @@ public:
         pchMessageStart[3] = 0xda;
         nDefaultPort = 19444;
         nPruneAfterHeight = 1000;
+        //https://github.com/liveblockchain/genesisgen
+        //./genesis 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9 "Miami Heat rout Indiana Pacers 99-76, advance to NBA Finals on June 3, 2013" 0x207fffff 0 1296688602
+        //nBits=0x207fffff
+        //startNonce=1705420536
 
-        genesis = CreateGenesisBlock(1296688602, 0, 0x207fffff, 1, 50 * COIN);
+        /**
+        Coinbase: 010001044b4d69616d69204865617420726f757420496e6469616e61205061636572732039392d37362c20616476616e636520746f204e42412046696e616c73206f6e204a756e6520332c2032303133
+
+        PubkeyScript: 41040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9ac
+
+        Merkle Hash: 122727b49ccf64e317f27632127c43711d23c32b4df84d47d6b476a28e21c287
+        Byteswapped: 87c2218ea276b4d6474df84d2bc3231d71437c123276f217e364cf9cb4272712
+        Generating block...
+        765287 Hashes/s, Nonce 173656639
+        760889 Hashes/s, Nonce 623650363
+
+
+
+        680422 Hashes/s, Nonce 883987632
+        741896 Hashes/s, Nonce 1704930496
+        Block found!
+        Hash: 0000000051ac72b32ffccf01d481a725009eae66288cd988b727e357bb9d9f6f
+        Nonce: 1705420536
+        Unix time: 1296688602
+        **/
+        genesis = CreateGenesisBlock(1296688602, 1705420536, 0x207fffff, 1, 524288 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //assert(consensus.hashGenesisBlock == uint256S("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        /*printf("hashGenesisBlock:%s,hashMerkleRoot:%s\n", consensus.hashGenesisBlock, genesis.hashMerkleRoot);
+        assert(consensus.hashGenesisBlock == uint256S("0x87c2218ea276b4d6474df84d2bc3231d71437c123276f217e364cf9cb4272712"));
+        assert(genesis.hashMerkleRoot == uint256S("0x122727b49ccf64e317f27632127c43711d23c32b4df84d47d6b476a28e21c287"));*/
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
@@ -335,7 +362,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"))
+            ( 0, uint256S("0x87c2218ea276b4d6474df84d2bc3231d71437c123276f217e364cf9cb4272712"))
         };
 
         chainTxData = ChainTxData{
